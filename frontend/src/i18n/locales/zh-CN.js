@@ -18,6 +18,10 @@ export default {
     changePassword: "修改密码",
     loading: "加载中…",
   },
+  nav: {
+    stations: "台站",
+    publishing: "发布",
+  },
   login: {
     title: "登录",
     identifier: "邮箱或用户名",

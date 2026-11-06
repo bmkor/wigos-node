@@ -147,7 +147,7 @@ async function handleLogout() {
         <v-list-item
           v-for="item in NAV_ITEMS"
           :key="item.mode"
-          :title="item.title"
+          :title="t(item.titleKey)"
           :prepend-icon="item.icon"
           :active="view.mode === item.mode"
           color="primary"
